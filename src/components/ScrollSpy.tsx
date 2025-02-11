@@ -12,8 +12,7 @@ const sections: Section[] = [
   { id: 'certificate', label: 'Certificate', icon: <GraduationCap className="w-4 h-4" /> },
   { id: 'case-study', label: 'UX Case Study', icon: <FileText className="w-4 h-4" /> },
   { id: 'art-portfolio', label: 'Art Portfolio', icon: <Palette className="w-4 h-4" /> },
-  { id: 'experience', label: 'Experience', icon: <Briefcase className="w-4 h-4" /> },
-  { id: 'education', label: 'Education', icon: <BookOpen className="w-4 h-4" /> }
+  { id: 'resume section', label: 'resume', icon: <Briefcase className="w-4 h-4" /> }
 ];
 
 export function ScrollSpy() {
