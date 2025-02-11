@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+  }
+  
+  body {
+    @apply antialiased text-base text-gray-600;
+  }
+
+  /* Establish clear typographic hierarchy */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold text-gray-900;
+  }
+
+  h1 { @apply text-6xl mb-8; }
+  h2 { @apply text-4xl mb-6; }
+  h3 { @apply text-2xl mb-4; }
+  h4 { @apply text-xl mb-3; }
+  h5 { @apply text-lg mb-2; }
+  h6 { @apply text-base mb-2; }
+
+  /* Improve paragraph readability */
+  p {
+    @apply mb-4 max-w-[65ch];
+  }
+
+  /* List styling */
+  ul, ol {
+    @apply mb-4;
+  }
+
+  li {
+    @apply mb-2;
+  }
+}
+
+/* Gestalt-based spacing for content sections */
+.content-section {
+  @apply py-16 md:py-24;
+}
+
+.content-section + .content-section {
+  @apply border-t border-gray-100;
+}
+
+/* Card patterns following similarity principle */
+.card {
+  @apply bg-white rounded-2xl p-8 shadow-lg;
+}
+
+.card-title {
+  @apply text-xl font-bold mb-4;
+}
+
+.card-content {
+  @apply text-gray-600;
+}
+
+/* Scroll reveal animations with smoother transitions */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform, opacity;
+  visibility: visible !important;
+}
+
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Ensure sections are visible even before animation */
+.reveal:not(.show) {
+  opacity: 0;
+}
+
+/* Ensure the first view is visible */
+.min-h-screen {
+  min-height: 100vh;
+}
