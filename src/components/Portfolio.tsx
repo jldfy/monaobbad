@@ -333,7 +333,7 @@ export function Portfolio() {
             </p>
             <div className="space-y-4 mb-8">
               <a
-                href="/src/public/CV_MonaOBBAD_UXDESIGN.pdf"
+                href="../public/CV_MonaOBBAD_UXDESIGN.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-primary-600 text-white rounded-lg hover:bg-primary-700 font-medium transition-colors text-lg group"
