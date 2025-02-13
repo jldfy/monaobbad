@@ -214,7 +214,7 @@ export function Portfolio() {
                 <Link
                   to="/case-study"
                   onClick={() => window.scrollTo(0, 0)}
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-primary-600 text-primary rounded-lg hover:bg-primary-700 font-medium transition-colors"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 font-medium transition-colors"
                 >
                   View Case Study
                   <ArrowRight className="w-4 h-4" />
@@ -280,7 +280,7 @@ export function Portfolio() {
                 <Link
                   to="/art-portfolio"
                   onClick={() => window.scrollTo(0, 0)}
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-primary-600 text-primary rounded-lg hover:bg-primary-700 font-medium transition-colors"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 font-medium transition-colors"
                 >
                   View Art Portfolio
                   <ArrowRight className="w-4 h-4" />
