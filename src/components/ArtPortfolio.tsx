@@ -259,29 +259,37 @@ export function ArtPortfolio() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section id="contact" className="py-20 bg-primary-50 reveal">
+     
+
+
+  {/* Contact Section */}
+  <section id="contact" className="py-20 bg-primary-50 reveal">
         <div className="max-w-6xl mx-auto px-4">
-          <div className="bg-white rounded-2xl p-8 shadow-lg">
-            <h2 className="text-3xl font-bold mb-8">Get in Touch</h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <p className="text-gray-600 mb-6 whitespace-nowrap"> Interested in commissioning a piece or learning more about my work? I'd love to hear from you.</p>
-                
-                <div className="space-y-4">
-                  <div className="flex items-center gap-3">
-                    <Mail className="w-5 h-5 text-primary-600" />
-                    <a href="mailto:mona.obbad@gmail.com" className="text-gray-600 hover:text-primary-600">
-                      mona.obbad@gmail.com
-                    </a>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <Phone className="w-5 h-5 text-primary-600" />
-                    <span className="text-gray-600">+33745684919</span>
-                  </div>
+        <p className="text-3xl font-bold mb-8">Get in Touch</p>
+          <div className="bg-primary rounded-2xl p-12 shadow-lg text-center">
+            
+            <h2 className="text-4xl font-bold text-gray-900 mb-6 tracking-tight">
+
+            Interested in commissioning a piece or learning more about my work? I'd love to hear from you.
+
+            </h2>
+            
+            <div className="space-y-4 mb-8">
+              <div className="inline-flex items-center gap-2 text-gray-600">
+                <Mail className="w-5 h-5 text-primary-600" />
+                <a
+                  href="mailto:mona.obbad@gmail.com"
+                  className="hover:text-primary-600"
+                >
+                  mona.obbad@gmail.com
+                </a>
+              </div>
+              <div className="space-y-4 mb-8">
+                <div className="inline-flex items-center gap-2 text-gray-600">
+                  <Phone className="w-5 h-5 text-primary-600" />
+                  <span>(+337) 45684919</span>
                 </div>
               </div>
-             
             </div>
           </div>
         </div>
