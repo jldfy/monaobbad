@@ -1,5 +1,5 @@
 import React from 'react';
-import { Palette, Heart, Eye, Brush, Image as ImageIcon, Star, Calendar, MapPin, Mail, ArrowLeft, Sparkles, Layers, Phone } from 'lucide-react';
+import { Paintbrush, Palette, Heart, Eye, Brush, Image as ImageIcon, Star, Calendar, MapPin, Mail, ArrowLeft, Sparkles, Layers, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useScrollReveal } from './ScrollReveal';
 import { ArtPortfolioScrollSpy } from './ArtPortfolioScrollSpy';
@@ -224,8 +224,14 @@ export function ArtPortfolio() {
                     <h3 className="text-2xl font-bold">Kids Art Adventures</h3>
                   </div>
                   <p className="text-gray-600 mb-6">
-                    Fun and educational art sessions where children can discover their creativity, learn fundamental art concepts, and express themselves freely.
-                  </p>
+                    Fun and educational art sessions where children can have  space to explore their creativity, and express themselves freely 
+        Through playful painting <Paintbrush className="inline text-primary-500" />, creative crafts, and storytelling in art.</p>
+        
+          <p className="text-gray-600 mb-6">
+           I guide them in expressing their ideas freely while learning fundamental concepts like color theory, composition, and texture. </p>
+           <p className="text-gray-600 mb-6">
+        What I love most about these workshops is witnessing the children's imagination come to life—seeing their unique perspectives unfold on canvas <Palette className="inline text-primary-500" /> is truly inspiring!
+      </p>
                   <ul className="space-y-3 mb-6">
                     <li className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-primary-600 mt-2"></div>
