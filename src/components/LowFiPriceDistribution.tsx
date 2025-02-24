@@ -2,14 +2,7 @@ import { Image, Users, ArrowLeft } from 'lucide-react';
 import { useState } from 'react';
 
 export function LowFiPriceDistribution() {
-  const [totalPrice, setTotalPrice] = useState("500.00");
-  const basePrice = 300;
-  
-  const artistShare = (parseFloat(totalPrice) * 0.45).toFixed(2);
-  const causeShare = (parseFloat(totalPrice) * 0.35).toFixed(2);
-  const platformFee = (parseFloat(totalPrice) * 0.20).toFixed(2);
-
-  return (
+    return (
     <div className="relative max-w-3xl mx-auto">
       {/* Design System Annotations */}
       <div className="absolute -left-48 top-0 w-40 text-xs space-y-2 text-blue-600 font-mono">
