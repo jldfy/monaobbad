@@ -24,7 +24,7 @@ export function LowFiPriceDistribution() {
 
       
               <img
-                src="./src/data/wirframe.PNG"
+                src="https://github.com/jldfy/monaobbad/blob/main/src/data/wirframe.PNG?raw=true"
                 alt="wireframe"
                 
               />
