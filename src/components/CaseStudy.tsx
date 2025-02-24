@@ -58,11 +58,9 @@ export function CaseStudy() {
 
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-6">3. Design Process & High-Fidelity Design</h3>
-            <p className="text-gray-600 mb-8">Final design with complete styling, interactions, and visual polish</p>
+            <p className="text-gray-600 mb-8">Detailed wireframes showcasing the core functionality and user interface of PickAsso.</p>
             <DesignProcess />
-            <div className="mt-12">
-              <PriceDistribution />
-            </div>
+            
           </div>
         </div>
       </section>

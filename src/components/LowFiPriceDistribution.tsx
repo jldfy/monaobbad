@@ -29,22 +29,7 @@ export function LowFiPriceDistribution() {
                 
               />
      
-        {/* Navigation - Material Top App Bar Pattern */}
-        
-
-        {/* Content Container - Material Card Pattern */}
-        
-
-          {/* Distribution Slider - Material Slider Pattern */}
-         
-
-          {/* Distribution Details - Material List Pattern */}
-          
-
-          {/* Impact Preview - Material Card Pattern */}
-          
-
-          {/* Action Buttons - Material Buttons Pattern */}
+       
           
 </div>
       {/* Design Annotations */}
